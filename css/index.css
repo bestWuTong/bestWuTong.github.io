@@ -133,6 +133,7 @@ body {
 	}
 	.linkimg {
 		width: 33px;
+		height: 33px;
 		vertical-align: top;
 	}
 }
@@ -262,6 +263,7 @@ body {
 	}
 	.header .logo {
 		width: 80%;
+		margin-bottom: 85%;
 	}
 	.leftcolumn, .rightcolumn {   
 		width: 90%;
@@ -295,13 +297,6 @@ body {
 			top: 8%;
 			left: 30%;
 		}
-	}
-}
-
-@media screen and (max-width: 700px) {
-	.header .logo {
-		width: 80%;
-		margin-bottom: 65%;
 	}
 }
 
