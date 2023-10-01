@@ -184,9 +184,6 @@ body {
 		margin-top: 5%;
 		font-size: 20px;
 	}
-	.musicplayer {
-		
-	}
 }
 
 /*==== 内容卡片01 ====*/
@@ -221,7 +218,7 @@ body {
 .footer {
 	text-align: center;
 	.p0 {
-		width: 20%;
+		display: none;
 	}
 	.p1 {
 		line-height: 0;
@@ -300,6 +297,10 @@ body {
 		}
 	}
 	.footer {
+		.p0 {
+			display: inline-block;
+			width: 20%;
+		}
 		.logo {
 			display: none;
 		}
