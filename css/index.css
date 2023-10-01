@@ -84,11 +84,11 @@ body {
 /*==== 头部标题logo ====*/
 .header {
 	text-align: center;
-	.logo {
-		margin-top: 4%;
-		margin-bottom: 25%;
-		width: 45%;
-	}
+}
+.header .logo {
+	margin-top: 4%;
+	margin-bottom: 25%;
+	width: 45%;
 }
 
 
@@ -120,22 +120,22 @@ body {
 .aboutme {
 	text-align: center;
 	padding: 4% 2%;
-	.p1 {
-		font-size: 25px;
-	}
-	.p2 {
-		font-size: 16px;
-	}
-	.avatar {
-		width: 45%;
-		border-radius: 100%;
-		border: 5px solid #dedede;
-	}
-	.linkimg {
-		width: 33px;
-		height: 33px;
-		vertical-align: top;
-	}
+}
+.aboutme .p1 {
+	font-size: 25px;
+}
+.aboutme .p2 {
+	font-size: 16px;
+}
+.aboutme .avatar {
+	width: 45%;
+	border-radius: 100%;
+	border: 5px solid #dedede;
+}
+.aboutme .linkimg {
+	width: 33px;
+	height: 33px;
+	vertical-align: top;
 }
 
 
@@ -165,83 +165,81 @@ body {
 /*==== GIF卡片 ====*/
 .mygif {
 	text-align: center;
-	.gif01 {
-		width: 90%;
-	}
+}
+.mygif .gif01 {
+	width: 90%;
 }
 
 /*==== 欢迎卡片 ====*/
 .welcome {
 	text-align: center;
-	.p1 {
-		font-size: 35px;
-	}
-	.p2 {
-		font-family: 'Times New Roman', Times, serif;
-		font-size: 19px;
-	}
-	.p3 {
-		margin-top: 5%;
-		font-size: 20px;
-	}
+}
+.welcome .p1 {
+	font-size: 35px;
+}
+.welcome .p2 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 19px;
+}
+.welcome .p3 {
+	margin-top: 5%;
+	font-size: 20px;
 }
 
 /*==== 内容卡片01 ====*/
 .part01 {
 	text-align: center;
-	.p1 {
-		font-size: 45px;
-		line-height: 45px;
-	}
-	.p2 {
-		font-size: 25px;
-	}
-	.p3 {
-		font-size: 35px;
-	}
+}
+.part01 .p1 {
+	font-size: 45px;
+	line-height: 45px;
+}
+.part01 .p2 {
+	font-size: 25px;
+}
+.part01 .p3 {
+	font-size: 35px;
 }
 
 /*==== 内容卡片02 ====*/
-.part02 {
-	.p3 {
-		text-align: right;
-	}
-	.p4 {
-		padding: 0 3%;
-	}
-	.gif {
-		width: 20%;
-	}
+.part02 .p3 {
+	text-align: right;
+}
+.part02 .p4 {
+	padding: 0 3%;
+}
+.part02 .gif {
+	width: 20%;
 }
 
 /*==== 底部版权信息 ====*/
 .footer {
 	text-align: center;
-	.p0 {
-		display: none;
-	}
-	.p1 {
-		line-height: 0;
-	}
-	.p2 {
-		font-size: 25px;
-		line-height: 130%;
-	}
-	.p3 {
-		line-height: 0;
-	}
-	.url {
-		line-height: 0;
-		text-decoration: none;
-		margin: 0 1%;
-	}
-	.logo {
-		float: left;
-		width: 20%;
-		position: fixed;
-		top: 30%;
-		left: 5%;
-	}
+}
+.footer .p0 {
+	display: none;
+}
+.footer .p1 {
+	line-height: 0;
+}
+.footer .p2 {
+	font-size: 25px;
+	line-height: 130%;
+}
+.footer .p3 {
+	line-height: 0;
+}
+.footer .url {
+	line-height: 0;
+	text-decoration: none;
+	margin: 0 1%;
+}
+.footer .logo {
+	float: left;
+	width: 20%;
+	position: fixed;
+	top: 30%;
+	left: 5%;
 }
 
 
@@ -290,10 +288,8 @@ body {
 	.aboutme .linkimg {
 		display: none;
 	}
-	.mygif {
-		.gif01 {
-			width: 50%;
-		}
+	.mygif .gif01 {
+		width: 50%;
 	}
 	.welcome .music{
 		display: none;
