@@ -132,7 +132,7 @@ body {
 		border: 5px solid #dedede;
 	}
 	.linkimg {
-		width: 17%;
+		width: 33px;
 		vertical-align: top;
 	}
 }
@@ -251,12 +251,14 @@ body {
 		width: 98%;
 	}
 	.button01:link,.button01:visited {
-		width: 45px;
-		padding: 5px 10px;
-		margin: 5px 3px;
+		font-size: 28px;
+		width: 75px;
+		margin: 5px 12px;
+		padding: 10px 30px;
+		border-radius: 30px;
 	}
 	.button01:hover {
-		margin: 1px 0;
+		margin: 1px 9px;
 	}
 	.header .logo {
 		width: 80%;
