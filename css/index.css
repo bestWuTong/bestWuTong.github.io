@@ -291,19 +291,15 @@ body {
 			width: 50%;
 		}
 	}
-	.welcome {
-		.music {
-			display: none;
-		}
+	.welcome .music{
+		display: none;
 	}
-	.footer {
-		.p0 {
-			display: inline-block;
-			width: 20%;
-		}
-		.logo {
-			display: none;
-		}
+	.footer .p0{
+		display: inline-block;
+		width: 20%;
+	}
+	.footer .logo {
+		display: none;
 	}
 }
 
