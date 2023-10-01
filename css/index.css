@@ -251,6 +251,10 @@ body {
 		background-image: url("../images/bg12.jpg");
 		width: 98%;
 	}
+	.blur {
+		backdrop-filter: none;
+		background-color: rgba(255, 255, 255, 0.6);
+	}
 	.button01:link,.button01:visited {
 		font-size: 28px;
 		width: 75px;
