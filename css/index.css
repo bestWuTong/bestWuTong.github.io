@@ -116,7 +116,7 @@ body {
 }
 
 
-/*==== 个人链接 ====*/
+/*==== 个人链接卡片 ====*/
 .aboutme {
 	text-align: center;
 	padding: 4% 2%;
@@ -220,6 +220,9 @@ body {
 /*==== 底部版权信息 ====*/
 .footer {
 	text-align: center;
+	.p0 {
+		width: 20%;
+	}
 	.p1 {
 		line-height: 0;
 	}
@@ -283,19 +286,22 @@ body {
 		padding-bottom: 2%;
 		font-size: 26px;
 	}
+	.aboutme .linkimg {
+		display: none;
+	}
 	.mygif {
 		.gif01 {
 			width: 50%;
 		}
 	}
+	.welcome {
+		.music {
+			display: none;
+		}
+	}
 	.footer {
-		margin-top: 15%;
 		.logo {
-			float: left;
-			width: 40%;
-			position: fixed;
-			top: 8%;
-			left: 30%;
+			display: none;
 		}
 	}
 }
