@@ -148,7 +148,11 @@ body {
 }
 
 /*==== 返回顶部 ====*/
-.back-to-top {
+.back-to-top .icon {
+	width: 30px;
+	margin: 10px;
+}
+.back-to-top:link,.back-to-top:visited {
 	position: fixed;
 	right: 35px;
 	bottom: 35px;
@@ -156,16 +160,15 @@ body {
 	border-radius: 100%;
 	border: 5px solid #dedede;
 }
-.back-to-top .icon {
-	width: 60px;
-	margin: 10px;
+.back-to-top:hover {
+	border: 5px solid #363636;
 }
 
 
 /*==== 响应式布局 ====*/
 @media screen and (max-width: 1080px) {
 	body {
-		background-image: url("../images/bg12.jpg");
+		background-image: url("/images/bg12.jpg");
 		width: 98%;
 	}
 	.header .logo {
