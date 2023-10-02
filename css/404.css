@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+body {
+	background-color: #8d8d8d;
+	width: 75%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.main404 {
+	text-align: center;
+}
+.main404 .p1 {
+	font-size: 85px;
+	line-height: 5%;
+}
+.main404 .p2 {
+	font-size: 30px;
+}
+.main404 .img404 {
+	width: 45%;
+	border: 5px solid #a7bcc3;
+	border-radius: 5%;
+	box-shadow: 0 5px 15px rgba(115, 115, 115, 0.8);
+}
+
+
+@media screen and (max-width: 1080px) {
+	body {
+		width: 98%;
+	}
+	.main404 .p1 {
+		font-size: 150px;
+		line-height: 50%;
+	}
+	.main404 .p2 {
+		font-size: 50px;
+	}
+	.main404 .img404 {
+		width: 65%;
+		border: 5px solid #a7bcc3;
+		border-radius: 5%;
+		box-shadow: 0 5px 15px rgba(115, 115, 115, 0.8);
+	}
+}
