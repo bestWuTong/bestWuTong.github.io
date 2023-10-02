@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-	background-image: url("../images/bg11.jpg");
+	background-image: url("/images/bg11.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -154,6 +154,7 @@ body {
 	bottom: 35px;
 	background-color: rgba(255, 255, 255, 0.6);
 	border-radius: 100%;
+	border: 5px solid #dedede;
 }
 .back-to-top .icon {
 	width: 60px;
