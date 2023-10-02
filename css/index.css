@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+body {
+	background-image: url("../images/bg11.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 90vh;
+	width: 75%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
 
 /*==== 头部标题logo ====*/
 .header {
@@ -148,6 +163,10 @@
 
 /*==== 响应式布局 ====*/
 @media screen and (max-width: 1080px) {
+	body {
+		background-image: url("../images/bg12.jpg");
+		width: 98%;
+	}
 	.header .logo {
 		width: 80%;
 		margin-bottom: 85%;
