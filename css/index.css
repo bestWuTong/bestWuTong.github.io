@@ -212,6 +212,19 @@ body {
 	width: 20%;
 }
 
+/*==== 返回顶部 ====*/
+.back-to-top {
+	position: fixed;
+	right: 35px;
+	bottom: 35px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 100%;
+}
+.back-to-top .icon {
+	width: 60px;
+	margin: 10px;
+}
+
 /*==== 底部版权信息 ====*/
 .footer {
 	text-align: center;
@@ -286,7 +299,7 @@ body {
 		font-size: 26px;
 	}
 	.mygif .gif01 {
-		width: 50%;
+		width: 260px;
 	}
 	.welcome .music{
 		display: none;
