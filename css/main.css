@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* 主样式文件 */
+
+
+/*==== 毛玻璃 ====*/
+.blur {
+	font-family: 微软雅黑;
+	font-size: 20px;
+	line-height: 35px;
+	background-color: rgba(255, 255, 255, 0.4);
+	box-shadow: 0 5px 15px rgba(20, 20, 20, 0.8);
+	border-radius: 32px;
+	align-items: center;
+	backdrop-filter: blur(7px);
+	padding: 38px 28px;
+	margin-bottom: 30px;
+}
+
+
+/*==== 顶部导航栏 ====*/
+.topnav {
+	background-color: rgba(255, 255, 255, 0.4);
+	backdrop-filter: blur(7px);
+	box-shadow: 0 5px 15px rgba(115, 115, 115, 0.8);
+	border: 1px solid #afc4cc;
+	margin: 3% 0;
+	border-radius: 25px;
+	text-align: center;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+
+/*==== 顶部导航按钮 ====*/
+.button01:link,.button01:visited {
+
+	font-family: 微软雅黑;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: rgba(255, 255, 255, 0.4);
+	color: #21364c;
+	width: 65px;
+	margin: 5px 12px;
+	padding: 10px 30px;
+	border: 2px solid #a7bcc3;
+	border-radius: 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	backdrop-filter: blur(8px);
+}
+
+.button01:hover {
+	background-color: #8FC3FF;
+	color: white;
+	border-width: 5px;
+	margin: 1px 9px;
+}
+
+.button01:active {
+	background-color: #568EC6;
+	color: white;
+}
+/*========*/
+
+
+/*==== 底部版权信息 ====*/
+.footer {
+	text-align: center;
+}
+.footer .p0 {
+	display: none;
+}
+.footer .p1 {
+	line-height: 0;
+}
+.footer .p2 {
+	font-size: 25px;
+	line-height: 130%;
+}
+.footer .p3 {
+	line-height: 0;
+}
+.footer .url {
+	line-height: 0;
+	text-decoration: none;
+	margin: 0 1%;
+}
+.footer .logo {
+	float: left;
+	width: 20%;
+	position: fixed;
+	top: 30%;
+	left: 5%;
+}
+
+
+
+
+
+/*==== 响应式布局 ====*/
+@media screen and (max-width: 1080px) {
+	body {
+		background-image: url("../images/bg12.jpg");
+		width: 98%;
+	}
+	.blur {
+		backdrop-filter: none;
+		background-color: rgba(255, 255, 255, 0.6);
+	}
+	.button01:link,.button01:visited {
+		font-size: 28px;
+		width: 75px;
+		margin: 5px 12px;
+		padding: 10px 30px;
+		border-radius: 30px;
+	}
+	.button01:hover {
+		margin: 1px 9px;
+	}
+	.footer .p0{
+		display: inline-block;
+		width: 20%;
+	}
+	.footer .logo {
+		display: none;
+	}
+}
+

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+
+.main404 {
+	text-align: center;
+}
+.main404 .p1 {
+	font-size: 85px;
+	line-height: 5%;
+}
+.main404 .p2 {
+	font-size: 30px;
+}
+.main404 .img404 {
+	width: 45%;
+	border: 5px solid #a7bcc3;
+	border-radius: 5%;
+	box-shadow: 0 5px 15px rgba(115, 115, 115, 0.8);
+}
+
+
