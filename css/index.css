@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 body {
 	background-image: url("/images/bg11.jpg");
 	background-repeat: no-repeat;
@@ -145,23 +146,6 @@ body {
 }
 .part02 .gif {
 	width: 20%;
-}
-
-/*==== 返回顶部 ====*/
-.back-to-top .icon {
-	width: 30px;
-	margin: 10px;
-}
-.back-to-top:link,.back-to-top:visited {
-	position: fixed;
-	right: 35px;
-	bottom: 35px;
-	background-color: rgba(255, 255, 255, 0.6);
-	border-radius: 100%;
-	border: 5px solid #dedede;
-}
-.back-to-top:hover {
-	border: 5px solid #363636;
 }
 
 

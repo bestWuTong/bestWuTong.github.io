@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+body {
+	background-image: url("/images/bg21.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 90vh;
+	width: 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+
+/*==== 头部标题logo ====*/
+.header {
+	text-align: center;
+}
+.header .logo {
+	margin-top: 4%;
+	margin-bottom: 10%;
+	width: 45%;
+}
+.header .p1 {
+	font-size: 50px;
+	text-shadow: 3px 3px 6px whitesmoke;
+}
+
+
+/*==== 清除列之后的浮动 ====*/
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*==== 左列 ====*/
+.leftcolumn {
+	float: left;
+	width: 25%;
+	margin: 5% 1% 5% 2%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10%;
+	z-index: 990;
+}
+
+
+/*==== 右列 ====*/
+.rightcolumn {
+	float: left;
+	width: 69%;
+	margin: 5% 2% 5% 1%;
+}
+
+.leftcolumn h2 {
+	text-align: center;
+}
+
+.toc {
+	width: 100%;
+	min-height: 400px;
+}
+
+
+.view {
+	width: 100%;
+	min-height: 1000px;
+	background-color: rgba(218, 218, 218, 0.7);
+	box-shadow: 0px 0px 20px rgba(227, 227, 227, 1.0);
+	border-radius: 30px;
+}
+
+
+
+
+/*==== 响应式布局 ====*/
+@media screen and (max-width: 1080px) {
+	body {
+		width: 98%;
+	}
+	.leftcolumn, .rightcolumn {   
+		width: 90%;
+		padding: 0;
+		margin: 5%;
+		position: static;
+	}
+}
