@@ -1,6 +1,31 @@
 @charset "UTF-8";
 /* 主样式文件 */
 
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*==== 页面滚动条 ====*/
+/* 宽度 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* 轨迹 */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+/* 处理 */
+::-webkit-scrollbar-thumb {
+  background: rgb(90, 180, 236); 
+  border-radius: 10px;
+}
+/* 悬停处理 */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(44, 90, 118);
+}
+
 
 /*==== 毛玻璃 ====*/
 .blur {
