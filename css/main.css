@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* 主样式文件 */
 
+
 body {
 	margin: 0;
 	padding: 0;
@@ -91,6 +92,30 @@ body {
 /*========*/
 
 
+/*==== 头部标题logo ====*/
+.header01 {
+	text-align: center;
+}
+.header01 .logo {
+	margin-top: 4%;
+	margin-bottom: 25%;
+	width: 45%;
+}
+
+.header02 {
+	text-align: center;
+}
+.header02 .logo {
+	margin-top: 4%;
+	margin-bottom: 10%;
+	width: 45%;
+}
+.header02 .p1 {
+	font-size: 50px;
+	text-shadow: 3px 3px 6px whitesmoke;
+}
+
+
 /*==== 返回顶部 ====*/
 .back-to-top .icon {
 	width: 30px;
@@ -159,6 +184,14 @@ body {
 	}
 	.button01:hover {
 		margin: 1px 9px;
+	}
+	.header01 .logo {
+		width: 80%;
+		margin-bottom: 85%;
+	}
+	.header02 .logo {
+		width: 80%;
+		margin-bottom: 70%;
 	}
 	.footer .p0{
 		display: inline-block;

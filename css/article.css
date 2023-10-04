@@ -17,21 +17,6 @@ body {
 }
 
 
-/*==== 头部标题logo ====*/
-.header {
-	text-align: center;
-}
-.header .logo {
-	margin-top: 4%;
-	margin-bottom: 10%;
-	width: 45%;
-}
-.header .p1 {
-	font-size: 50px;
-	text-shadow: 3px 3px 6px whitesmoke;
-}
-
-
 /*==== 清除列之后的浮动 ====*/
 .row:after {
 	content: "";

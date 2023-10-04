@@ -17,17 +17,6 @@ body {
 }
 
 
-/*==== 头部标题logo ====*/
-.header {
-	text-align: center;
-}
-.header .logo {
-	margin-top: 4%;
-	margin-bottom: 25%;
-	width: 45%;
-}
-
-
 /*==== 清除列之后的浮动 ====*/
 .row:after {
 	content: "";
@@ -154,10 +143,6 @@ body {
 	body {
 		background-image: url("/images/bg12.jpg");
 		width: 98%;
-	}
-	.header .logo {
-		width: 80%;
-		margin-bottom: 85%;
 	}
 	.leftcolumn, .rightcolumn {   
 		width: 90%;
