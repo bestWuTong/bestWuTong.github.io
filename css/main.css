@@ -5,18 +5,11 @@
 body {
 	margin: 0;
 	padding: 0;
-	animation: fadeInAnimation ease 1s;
-	animation-iteration-count: 1; 
-	animation-fill-mode: forwards;
+	opacity: 0;
+	transition: opacity 1s;
 }
-@keyframes fadeInAnimation { 
-    0% { 
-        opacity: 0; 
-    } 
-    100% { 
-        opacity: 1; 
-     } 
-}
+
+
 
 
 /*==== 页面滚动条 ====*/
