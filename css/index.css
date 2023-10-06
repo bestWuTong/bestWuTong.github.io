@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+
+body {
+	background-image: url("/images/bg11.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 90vh;
+	width: 75%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+
+/*==== 清除列之后的浮动 ====*/
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*==== 左列 ====*/
+.leftcolumn {
+	float: left;
+	width: 67%;
+	margin: 5% 1% 5% 2%;
+}
+
+
+/*==== 右列 ====*/
+.rightcolumn {
+	float: left;
+	width: 27%;
+	margin: 5% 2% 5% 1%;
+}
+
+
+/*==== 个人链接卡片 ====*/
+.aboutme {
+	text-align: center;
+	padding: 4% 2%;
+}
+.aboutme .p1 {
+	font-size: 25px;
+}
+.aboutme .p2 {
+	font-size: 16px;
+}
+.aboutme .avatar {
+	width: 45%;
+	border-radius: 100%;
+	border: 5px solid #dedede;
+}
+.aboutme .linkimg {
+	width: 33px;
+	height: 33px;
+	vertical-align: top;
+}
+
+
+/*==== 个人链接按钮 ====*/
+.aboutme .mylink:link,.aboutme .mylink:visited {
+	width: 65%;
+	padding: 3% 5%;
+	margin: 5%;
+	border: 5px solid #dedede;
+	background-color: #dedede;
+	color: #21364c;
+	border-radius: 28px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	backdrop-filter: blur(8px);
+}
+
+.aboutme .mylink:hover {
+	padding-bottom: 3%;
+	font-size: 23px;
+	border-bottom-color: #21364c;	
+}
+/*========*/
+
+/*==== GIF卡片 ====*/
+.mygif {
+	text-align: center;
+}
+.mygif .gif01 {
+	width: 90%;
+}
+
+/*==== 欢迎卡片 ====*/
+.welcome {
+	text-align: center;
+}
+.welcome .p1 {
+	font-size: 35px;
+}
+.welcome .p2 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 19px;
+}
+.welcome .p3 {
+	margin-top: 5%;
+	font-size: 20px;
+}
+
+/*==== 内容卡片01 ====*/
+.part01 {
+	text-align: center;
+}
+.part01 .p1 {
+	font-size: 45px;
+	line-height: 45px;
+}
+.part01 .p2 {
+	font-size: 25px;
+}
+.part01 .p3 {
+	font-size: 35px;
+}
+
+/*==== 内容卡片02 ====*/
+.part02 .p3 {
+	text-align: right;
+}
+.part02 .p4 {
+	padding: 0 3%;
+}
+.part02 .gif {
+	width: 20%;
+}
+
+
+/*==== 响应式布局 ====*/
+@media screen and (max-width: 1080px) {
+	body {
+		background-image: url("/images/bg12.jpg");
+		width: 98%;
+	}
+	.leftcolumn, .rightcolumn {   
+		width: 90%;
+		padding: 0;
+		margin: 5%;
+	}
+	.aboutme .avatar {
+		width: 25%;
+	}
+	.aboutme .mylink:link,.aboutme .mylink:visited {
+		font-size: 24px;
+		padding: 2% 3%;
+		width: 35%;
+		margin: 3%;
+	}
+	.aboutme .mylink:hover {
+		padding-bottom: 2%;
+		font-size: 26px;
+	}
+	.mygif .gif01 {
+		width: 260px;
+	}
+	.welcome .music{
+		display: none;
+	}
+}
+
