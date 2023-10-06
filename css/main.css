@@ -3,7 +3,7 @@
 
 
 body {
-	background-image: url("https://s2.loli.net/2023/10/06/wVSMxLQcCKD7EUp.jpg");
+	background-image: url("/images/bg01.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -188,7 +188,7 @@ body {
 /*==== 响应式布局 ====*/
 @media screen and (max-width: 1080px) {
 	body {
-		background-image: url("https://s2.loli.net/2023/10/06/RxKnJhGajclF3Hv.jpg");
+		background-image: url("/images/bg02.jpg");
 		width: 98%;
 	}
 	.blur {
