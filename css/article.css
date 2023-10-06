@@ -1,22 +1,6 @@
 @charset "UTF-8";
 
 
-body {
-	background-image: url("/images/bg21.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-	min-height: 90vh;
-	width: 80%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
-}
-
-
 /*==== 清除列之后的浮动 ====*/
 .row:after {
 	content: "";
@@ -70,9 +54,6 @@ body {
 
 /*==== 响应式布局 ====*/
 @media screen and (max-width: 1080px) {
-	body {
-		width: 98%;
-	}
 	.leftcolumn, .rightcolumn {   
 		width: 90%;
 		padding: 0;

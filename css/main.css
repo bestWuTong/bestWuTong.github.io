@@ -3,7 +3,19 @@
 
 
 body {
-	margin: 0;
+	background-image: url("/images/bg01.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	min-height: 90vh;
+	width: 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 	padding: 0;
 	opacity: 0;
 	transition: opacity 1s;
@@ -175,6 +187,10 @@ body {
 
 /*==== 响应式布局 ====*/
 @media screen and (max-width: 1080px) {
+	body {
+		background-image: url("/images/bg02.jpg");
+		width: 98%;
+	}
 	.blur {
 		backdrop-filter: none;
 		background-color: rgba(255, 255, 255, 0.6);
