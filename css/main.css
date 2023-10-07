@@ -17,11 +17,19 @@ body {
 	right: 0;
 	margin: auto;
 	padding: 0;
+	
 	opacity: 0;
 	transition: opacity 1s;
+	
+	cursor: url("/images/cursor/01.png"), auto;
 }
 
-
+a {
+	cursor: url("/images/cursor/02.png"), auto;
+}
+a:active {
+	cursor: url("/images/cursor/02.png"), auto;
+}
 
 
 /*==== 页面滚动条 ====*/
