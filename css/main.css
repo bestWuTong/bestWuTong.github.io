@@ -3,12 +3,13 @@
 
 
 body {
+	/*==== 背景 ====*/
 	background-image: url("/images/bg01.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
-	
+	/*==== 框架 ====*/
 	min-height: 90vh;
 	width: 80%;
 	position: absolute;
@@ -17,13 +18,25 @@ body {
 	right: 0;
 	margin: auto;
 	padding: 0;
-	
-	opacity: 0;
-	transition: opacity 1s;
-	
+	/*==== 网页淡入动画 ====*/
+	animation: fadeInAnimation ease 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: none;
+	/*==== 鼠标指针样式-常规 ====*/
 	cursor: url("/images/cursor/01.png"), auto;
 }
 
+/*==== 网页淡入动画-关键帧 ====*/
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+}
+
+/*==== 鼠标指针样式-链接 ====*/
 a {
 	cursor: url("/images/cursor/02.png"), auto;
 }
