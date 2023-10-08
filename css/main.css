@@ -4,6 +4,7 @@
 
 body {
 	/*==== 背景 ====*/
+	background-color: antiquewhite;
 	background-image: url("/images/bg01.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -16,27 +17,33 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
-	margin: auto;
+	margin: 0 auto;
 	padding: 0;
 	/*==== 网页淡入动画 ====*/
 	animation: fadeInAnimation ease 1s;
 	animation-iteration-count: 1;
 	animation-fill-mode: none;
-	/*==== 鼠标指针样式-常规 ====*/
+}
+
+
+/*==== 网页淡入动画-关键帧 ====*/
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+		margin-top: 2%;
+    }
+    100% {
+        opacity: 1;
+		margin-top: 0;
+    }
+}
+
+
+/*==== 鼠标指针样式 ====*/
+* {
 	cursor: url("/images/cursor/01.png"), auto;
 }
 
-/*==== 网页淡入动画-关键帧 ====*/
-@keyframes fadeInAnimation { 
-    0% { 
-        opacity: 0; 
-    } 
-    100% { 
-        opacity: 1; 
-     } 
-}
-
-/*==== 鼠标指针样式-链接 ====*/
 a {
 	cursor: url("/images/cursor/02.png"), auto;
 }
@@ -62,6 +69,14 @@ a:active {
 /* 悬停处理 */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(44, 90, 118);
+}
+
+
+/*==== 清除列之后的浮动 ====*/
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 
@@ -94,11 +109,20 @@ a:active {
 	top: 0;
 	z-index: 999;
 }
+.topnav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.topnav li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
 
 
 /*==== 顶部导航按钮 ====*/
-.button01:link,.button01:visited {
-
+.topnav a:link,.topnav a:visited {
 	font-family: 微软雅黑;
 	font-weight: bold;
 	font-size: 16px;
@@ -115,16 +139,41 @@ a:active {
 	backdrop-filter: blur(8px);
 }
 
-.button01:hover {
-	background-color: #8FC3FF;
-	color: white;
-	border-width: 5px;
-	margin: 1px 9px;
+.topnav a:hover {
+	animation: button_hover ease 0.3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes button_hover { 
+    0% { 
+        
+    } 
+    100% { 
+		background-color: #8FC3FF;
+		color: white;
+		border: 5px solid #9cafb5;
+		margin: 1px 9px;
+    } 
 }
 
-.button01:active {
-	background-color: #568EC6;
-	color: white;
+.topnav a:active {
+	animation: button_active ease 0.2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes button_active { 
+    0% { 
+        background-color: #8FC3FF;
+        color: white;
+        border: 5px solid #9cafb5;
+        margin: 1px 9px;
+    } 
+    100% { 
+		background-color: #568EC6;
+		color: white;
+		border: 5px solid #b7ced5;
+		margin: 1px 9px;
+    } 
 }
 /*========*/
 

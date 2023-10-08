@@ -3,12 +3,11 @@
 
 /*==== 内容 ====*/
 .mylinks {
-	width: 65%;
+	width: 75%;
 	margin: auto;
 	padding-top: 5%;
 	text-align: center;
 }
-
 
 .mylinks ul {
 	list-style-type: none;
@@ -36,6 +35,20 @@
 	text-decoration: none;
 	display: block;
 }
+
+
+.theme {
+	float: left;
+	width: 48%;
+	padding-right: 2%;
+}
+
+.study {
+	float: left;
+	width: 48%;
+	padding-left: 2%;
+}
+
 
 
 @media screen and (max-width: 1080px) {
