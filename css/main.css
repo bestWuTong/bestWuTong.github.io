@@ -55,20 +55,20 @@ a:active {
 /*==== 页面滚动条 ====*/
 /* 宽度 */
 ::-webkit-scrollbar {
-  width: 8px;
+	width: 8px;
 }
 /* 轨迹 */
 ::-webkit-scrollbar-track {
-  border-radius: 10px;
+	border-radius: 10px;
 }
-/* 处理 */
+/* 滑块 */
 ::-webkit-scrollbar-thumb {
-  background: rgb(90, 180, 236); 
-  border-radius: 10px;
+	background: rgb(90, 180, 236);
+	border-radius: 10px;
 }
-/* 悬停处理 */
+/* 滑块-点击 */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(44, 90, 118);
+	background: rgb(44, 90, 118);
 }
 
 
@@ -92,7 +92,13 @@ a:active {
 	backdrop-filter: blur(7px);
 	padding: 38px 28px;
 	margin-bottom: 30px;
+	transition: all 0.3s; 
 }
+.blur:hover {
+	background-color: rgba(255, 255, 255, 0.55);
+	transition: all 0.3s; 
+}
+
 
 
 /*==== 顶部导航栏 ====*/
@@ -137,43 +143,21 @@ a:active {
 	text-decoration: none;
 	display: inline-block;
 	backdrop-filter: blur(8px);
+	transition: all 0.3s;
 }
-
 .topnav a:hover {
-	animation: button_hover ease 0.3s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	transition: all 0.3s;
+	background-color: #8FC3FF;
+	color: white;
+	border: 5px solid #9cafb5;
+	margin: 1px 9px;
 }
-@keyframes button_hover { 
-    0% { 
-        
-    } 
-    100% { 
-		background-color: #8FC3FF;
-		color: white;
-		border: 5px solid #9cafb5;
-		margin: 1px 9px;
-    } 
-}
-
 .topnav a:active {
-	animation: button_active ease 0.2s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-}
-@keyframes button_active { 
-    0% { 
-        background-color: #8FC3FF;
-        color: white;
-        border: 5px solid #9cafb5;
-        margin: 1px 9px;
-    } 
-    100% { 
-		background-color: #568EC6;
-		color: white;
-		border: 5px solid #b7ced5;
-		margin: 1px 9px;
-    } 
+	transition: all 0.3s;
+	background-color: #568EC6;
+	color: white;
+	border: 5px solid #b7ced5;
+	margin: 1px 9px;
 }
 /*========*/
 
@@ -208,6 +192,7 @@ a:active {
 	margin: 10px;
 }
 .back-to-top:link,.back-to-top:visited {
+	transition: all 0.2s;
 	position: fixed;
 	right: 35px;
 	bottom: 35px;
@@ -217,6 +202,7 @@ a:active {
 	z-index: 998;
 }
 .back-to-top:hover {
+	transition: all 0.2s;
 	border: 5px solid #3f3f3f;
 }
 
