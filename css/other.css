@@ -20,7 +20,11 @@
 	background-color: rgba(255, 240, 233, 0.4);
 }
 
+.mylinks li {
+	transition: all 0.1s;
+}
 .mylinks li:hover {
+	transition: all 0.2s;
 	border-left: 5px solid cornflowerblue;
 	background-color: rgba(199, 199, 199, 0.6);
 	font-size: 26px;
