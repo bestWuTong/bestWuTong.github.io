@@ -5,7 +5,7 @@
 body {
 	/*==== 背景 ====*/
 	background-color: antiquewhite;
-	background-image: url("/images/bg01.jpg");
+	background-image: url("../images/bg01.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -13,10 +13,6 @@ body {
 	/*==== 框架 ====*/
 	min-height: 90vh;
 	width: 80%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
 	margin: 0 auto;
 	padding: 0;
 	/*==== 网页淡入动画 ====*/
@@ -41,14 +37,14 @@ body {
 
 /*==== 鼠标指针样式 ====*/
 * {
-	cursor: url("/images/cursor/01.png"), auto;
+	cursor: url("../images/cursor/01.png"), auto;
 }
 
 a {
-	cursor: url("/images/cursor/02.png"), auto;
+	cursor: url("../images/cursor/02.png"), auto;
 }
 a:active {
-	cursor: url("/images/cursor/02.png"), auto;
+	cursor: url("../images/cursor/02.png"), auto;
 }
 
 
@@ -100,7 +96,6 @@ a:active {
 }
 
 
-
 /*==== 顶部导航栏 ====*/
 .topnav {
 	background-color: rgba(255, 255, 255, 0.4);
@@ -135,7 +130,7 @@ a:active {
 	background-color: rgba(255, 255, 255, 0.4);
 	color: #21364c;
 	width: 65px;
-	margin: 5px 12px;
+	margin: 5px 20px;
 	padding: 10px 30px;
 	border: 2px solid #a7bcc3;
 	border-radius: 25px;
@@ -150,14 +145,14 @@ a:active {
 	background-color: #8FC3FF;
 	color: white;
 	border: 5px solid #9cafb5;
-	margin: 1px 9px;
+	margin: 1px 17px;
 }
 .topnav a:active {
 	transition: all 0.3s;
 	background-color: #568EC6;
 	color: white;
 	border: 5px solid #b7ced5;
-	margin: 1px 9px;
+	margin: 1px 17px;
 }
 /*========*/
 
@@ -244,7 +239,7 @@ a:active {
 /*==== 响应式布局 ====*/
 @media screen and (max-width: 1080px) {
 	body {
-		background-image: url("/images/bg02.jpg");
+		background-image: url("../images/bg02.jpg");
 		width: 98%;
 	}
 	.blur {
