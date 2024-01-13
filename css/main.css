@@ -51,7 +51,8 @@ a:active {
 /*==== 页面滚动条 ====*/
 /* 宽度 */
 ::-webkit-scrollbar {
-	width: 8px;
+	width: 9px;
+	height: 9px;
 }
 /* 轨迹 */
 ::-webkit-scrollbar-track {
