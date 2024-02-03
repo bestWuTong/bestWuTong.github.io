@@ -238,7 +238,7 @@ a:active {
 
 
 /*==== 响应式布局 ====*/
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1080px) {
 	body {
 		background-image: url("../images/bg02.jpg");
 		width: 98%;
