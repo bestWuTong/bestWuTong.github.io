@@ -2,14 +2,15 @@
 
 
 /*==== 内容 ====*/
-.mylinks {
+.links {
 	width: 75%;
 	margin: auto;
+	margin-bottom: 100px;
 	padding-top: 5%;
 	text-align: center;
 }
 
-.mylinks ul {
+.links ul {
 	list-style-type: none;
 	width: 85%;
 	margin: auto;
@@ -20,38 +21,26 @@
 	background-color: rgba(255, 240, 233, 0.4);
 }
 
-.mylinks li {
+.links li {
 	transition: all 0.1s;
 }
-.mylinks li:hover {
+.links li:hover {
 	transition: all 0.2s;
 	border-left: 5px solid cornflowerblue;
 	background-color: rgba(199, 199, 199, 0.6);
 	font-size: 26px;
 }
-.mylinks li:active {
+.links li:active {
 	border-left: 5px solid green;
 	background-color: rgba(197, 197, 197, 0.5);
 }
-.mylinks a {
+.links a {
 	padding-left: 5px;
 	color: #000;
 	text-decoration: none;
 	display: block;
 }
 
-
-.theme {
-	float: left;
-	width: 48%;
-	padding-right: 2%;
-}
-
-.study {
-	float: left;
-	width: 48%;
-	padding-left: 2%;
-}
 
 
 
