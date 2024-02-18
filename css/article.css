@@ -74,6 +74,15 @@ pre .btn-pre-copy{
 	border: 2px solid #ccc;
 }
 
+.article_comments {
+	border: 1px solid #85858576;
+	padding: 30px 10px;
+	border-radius: 13px;
+}
+.article_comments .article_comments_title {
+	font-size: 30px;
+	margin-left: 20px;
+}
 
 /*==== 响应式布局 ====*/
 @media screen and (max-width: 1080px) {
