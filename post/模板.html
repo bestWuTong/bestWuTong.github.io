@@ -6,7 +6,7 @@
 		<meta name="description" content="無同的个人网站" />
 		<meta name="keywords" content="Personal website,WuTong,無同,个人网站" />
 		
-		<title>文章 | 無同的小屋</title>
+		<title>{{files.0.name}} | 無同的小屋</title>
 		
 		<link rel="icon" href="../images/icon/favicon.png" />
 		<link rel="shortcut icon" href="../images/icon/favicon.png" />
@@ -61,15 +61,18 @@
 				<div class="article_comments">
 					<p class="article_comments_title">▍评论区</p>
 					
+					<p style="font-size: 15px; margin-left: 20px;">无需注册，填写昵称即可发表评论<br>如欲收到他人的回复，请填写你的邮箱<br>修改头像请参考：<a href="https://valine.js.org/avatar.html" target="_blank">头像配置</a></p>
+					
 					<div id="vcomments">【此处为文章评论区，未显示说明出现了一些问题！】</div>
 					<script>
 						new Valine({
 							el: '#vcomments',
 							appId: 'l0Ysj8uwxz71JIpBm8Aq61nu-gzGzoHsz',
-							appKey: 'bnNOLjiUSbazpvEx6qCB0eV0'
+							appKey: 'bnNOLjiUSbazpvEx6qCB0eV0',
+							placeholder: '说点什么吧~', //评论框占位提示符
+							requiredFields: ['nick'], //设置必填项，可选值：[]，['nick']，['nick','mail']
 						})
 					</script>
-
 				</div>
 
 				</div>
