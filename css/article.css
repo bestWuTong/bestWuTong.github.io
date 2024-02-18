@@ -82,6 +82,10 @@ pre .btn-pre-copy{
 .article_comments .article_comments_title {
 	font-size: 30px;
 }
+.article_comments .vpanel {
+	background-color: #ffeded97;
+}
+
 
 /*==== 响应式布局 ====*/
 @media screen and (max-width: 1080px) {
