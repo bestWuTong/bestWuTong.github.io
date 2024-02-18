@@ -16,14 +16,8 @@
 		<script type="text/javascript" src="../js/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/article.js"></script>
 		
-		<script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
-		<script>
-			new Valine({
-				el: '#vcomments',
-				appId: 'l0Ysj8uwxz71JIpBm8Aq61nu-gzGzoHsz',
-				appKey: 'bnNOLjiUSbazpvEx6qCB0eV0'
-			})
-		</script>
+		<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+		
 	</head>
 		
 	<body>
@@ -65,7 +59,14 @@
 				
 				<!-- 文章评论 -->
 				<div id="vcomments">【此处为文章评论区，未显示说明出现了一些问题！】</div>
-				
+				<script>
+					new Valine({
+						el: '#vcomments',
+						appId: 'l0Ysj8uwxz71JIpBm8Aq61nu-gzGzoHsz',
+						appKey: 'bnNOLjiUSbazpvEx6qCB0eV0'
+					})
+				</script>
+
 				</div>
 			</div>
 		</div>
