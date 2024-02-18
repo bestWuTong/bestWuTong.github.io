@@ -15,22 +15,9 @@
 		<link rel="stylesheet" type="text/css" href="../css/article.css" />
 		<script type="text/javascript" src="../js/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/article.js"></script>
-		<script src="https://giscus.app/client.js"
-		        data-repo="bestWuTong/bestWuTong.github.io"
-		        data-repo-id="R_kgDOJEu0iQ"
-		        data-category="文章评论"
-		        data-category-id="DIC_kwDOJEu0ic4Cc6eM"
-		        data-mapping="url"
-		        data-strict="0"
-		        data-reactions-enabled="1"
-		        data-emit-metadata="0"
-		        data-input-position="top"
-		        data-theme="light"
-		        data-lang="zh-CN"
-		        data-loading="lazy"
-		        crossorigin="anonymous"
-		        async>
-		</script>
+		
+		<script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
+
 	</head>
 		
 	<body>
@@ -1312,8 +1299,20 @@ GO
 				</div>
 				
 				<!-- 文章评论 -->
-				<div class="giscus"></div>
-				
+				<div class="article_comments">
+					<p class="article_comments_title">▍评论区</p>
+					
+					<div id="vcomments">【此处为文章评论区，未显示说明出现了一些问题！】</div>
+					<script>
+						new Valine({
+							el: '#vcomments',
+							appId: 'l0Ysj8uwxz71JIpBm8Aq61nu-gzGzoHsz',
+							appKey: 'bnNOLjiUSbazpvEx6qCB0eV0'
+						})
+					</script>
+
+				</div>
+
 				</div>
 			</div>
 		</div>
