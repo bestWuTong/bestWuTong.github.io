@@ -74,16 +74,24 @@ pre .btn-pre-copy{
 	border: 2px solid #ccc;
 }
 
+/*==== 评论区样式 ====*/
 .article_comments {
-	border: 1px solid #85858594;
 	padding: 30px 10px;
-	border-radius: 13px;
 }
 .article_comments .article_comments_title {
 	font-size: 30px;
 }
-.article_comments .vpanel {
-	background-color: #ffeded97;
+.article_comments .vwrap {
+	background-color: #cdcdcda6 !important;
+	border: 1px solid #85858594 !important;
+	border-radius: 10px !important;
+	box-shadow: 0 5px 15px rgba(20, 20, 20, 0.2) !important;
+}
+.article_comments .vinput {
+	border-bottom: 1px #b9b9b9 dashed !important;
+}
+.article_comments .vinput:focus {
+    border-bottom-color: #000000 !important;
 }
 
 
