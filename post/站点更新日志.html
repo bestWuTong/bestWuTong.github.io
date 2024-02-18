@@ -87,8 +87,13 @@
 							el: '#vcomments',
 							appId: 'l0Ysj8uwxz71JIpBm8Aq61nu-gzGzoHsz',
 							appKey: 'bnNOLjiUSbazpvEx6qCB0eV0',
-							avatar: '../images/icon/favicon.png', //头像 (''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
-							placeholder: '说点什么吧~\n(如欲收到他人的回复，请在上方填写你的邮箱)', //评论框占位提示符
+							//头像 (''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
+							avatar: 'mp',
+							//评论框占位提示符
+							placeholder: '说点什么吧~\n(如欲收到他人的回复，请在上方填写你的邮箱)',
+							//设置必填项，可选值：[]，['nick']，['nick','mail']
+							requiredFields: '['nick']',
+							
 						})
 					</script>
 
