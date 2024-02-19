@@ -80,7 +80,7 @@ a:active {
 /*==== 毛玻璃 ====*/
 .blur {
 	font-family: "Microsoft Yahei";
-	font-size: 0.2rem;
+	font-size: large;
 	background-color: rgba(255, 255, 255, 0.4);
 	box-shadow: 0 5px 15px rgba(20, 20, 20, 0.8);
 	border-radius: 32px;
