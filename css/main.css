@@ -26,8 +26,9 @@ body {
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
-		margin-top: 2%;
+		margin-top: 60px;
     }
+}
     100% {
         opacity: 1;
 		margin-top: 0;
@@ -80,7 +81,7 @@ a:active {
 /*==== 毛玻璃 ====*/
 .blur {
 	font-family: "Microsoft Yahei";
-	font-size: large;
+	font-size: 20px;
 	background-color: rgba(255, 255, 255, 0.4);
 	box-shadow: 0 5px 15px rgba(20, 20, 20, 0.8);
 	border-radius: 32px;
@@ -90,6 +91,7 @@ a:active {
 	margin-bottom: 30px;
 	transition: all 0.3s;
 }
+
 .blur:hover {
 	background-color: rgba(255, 255, 255, 0.55);
 	transition: all 0.3s;
