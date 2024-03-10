@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.resources {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.resources .res {
+    margin: 60px;
+}
+
+.resources .p1 {
+    margin: 30px;
+}
