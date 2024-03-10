@@ -212,13 +212,15 @@ a:active {
 }
 .footer .p1 {
 	line-height: 0;
+	line-height: 70%;
 }
 .footer .p2 {
 	font-size: 20px;
-	line-height: 150%;
+	line-height: 70%;
 }
 .footer .p3 {
 	line-height: 0;
+	line-height: 70%;
 }
 .footer .url {
 	line-height: 0;
