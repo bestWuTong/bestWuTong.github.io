@@ -254,12 +254,12 @@ a:active {
 	.topnav a:link,.topnav a:visited {
 		font-size: 32px;
 		width: 85px;
-		margin: 5px 20px;
-		padding: 10px 30px;
+		margin: 1%;
+		padding: 1.25%;
 		border-radius: 40px;
 	}
 	.topnav a:hover {
-		margin: 1px 17px;
+		margin: 0.49%;
 	}
 	.topnav a:active {
 		margin: 1px 17px;
