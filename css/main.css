@@ -5,7 +5,8 @@
 body {
 	/*==== 背景 ====*/
 	background-color: antiquewhite;
-	background-image: url("../images/bg01.jpg");
+/*	background-image: url("../images/bg01.jpg");	*/
+	background-image: url("https://imgse.com/i/pFWAFPg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -239,7 +240,8 @@ a:active {
 /*==== 响应式布局 ====*/
 @media screen and (max-width: 1080px) {
 	body {
-		background-image: url("../images/bg02.jpg");
+/*		background-image: url("../images/bg02.jpg");	*/
+		background-image: url("https://imgse.com/i/pFWAPIS");
 		width: 100%;
 	}
 	.blur {
