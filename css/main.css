@@ -6,7 +6,7 @@ body {
 	/*==== 背景 ====*/
 	background-color: antiquewhite;
 /*	background-image: url("../images/bg01.jpg");	*/
-	background-image: url("https://imgse.com/i/pFWAFPg");
+	background-image: url("https://s21.ax1x.com/2024/03/19/pFWAFPg.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -241,7 +241,7 @@ a:active {
 @media screen and (max-width: 1080px) {
 	body {
 /*		background-image: url("../images/bg02.jpg");	*/
-		background-image: url("https://imgse.com/i/pFWAPIS");
+		background-image: url("https://s21.ax1x.com/2024/03/19/pFWAPIS.jpg");
 		width: 100%;
 	}
 	.blur {
