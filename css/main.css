@@ -5,7 +5,7 @@
 body {
 	/*==== 背景 ====*/
 	background-color: antiquewhite;
-	background-image: url("../images/bg01.jpg");
+	background-image: url("../images/bg01.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -163,8 +163,8 @@ a:active {
 	text-align: center;
 }
 .header01 .logo {
-	margin-top: 4%;
-	margin-bottom: 25%;
+	margin-top: 30%;
+	margin-bottom: 3%;
 	width: 45%;
 }
 
@@ -172,8 +172,8 @@ a:active {
 	text-align: center;
 }
 .header02 .logo {
-	margin-top: 4%;
-	margin-bottom: 10%;
+	margin-top: 30%;
+	margin-bottom: 3%;
 	width: 45%;
 }
 .header02 .p1 {
@@ -239,7 +239,7 @@ a:active {
 /*==== 响应式布局 ====*/
 @media screen and (max-width: 1080px) {
 	body {
-		background-image: url("../images/bg02.jpg");
+		background-image: url("../images/bg01.png");
 		width: 100%;
 	}
 	.blur {
