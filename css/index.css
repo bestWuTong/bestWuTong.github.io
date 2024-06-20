@@ -17,6 +17,15 @@
 }
 
 
+/*==== 公告卡片 ====*/
+.announcement {
+
+}
+.announcement span {
+	font-size: 20px;
+	line-height: 50px;
+}
+
 /*==== 个人链接卡片 ====*/
 .aboutme {
 	text-align: center;
@@ -82,7 +91,7 @@
 	text-align: center;
 }
 .mygif .gif01 {
-	width: 90%;
+	width: 60%;
 }
 
 /*==== 欢迎卡片 ====*/
