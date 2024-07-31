@@ -20,7 +20,7 @@
 /*==== 公告卡片 ====*/
 .announcement iframe {
 	width: 100%;
-	height: 200px;
+	height: 400px;
 }
 .announcement span {
 	font-size: 20px;
@@ -115,15 +115,21 @@
 .part01 {
 	text-align: center;
 }
-.part01 .p1 {
-	font-size: 45px;
+.part01 .p1-1 {
+	text-align: left;
+	font-size: 35px;
+	line-height: 45px;
+}
+.part01 .p1-2 {
+	text-align: right;
+	font-size: 35px;
 	line-height: 45px;
 }
 .part01 .p2 {
-	font-size: 25px;
+	font-size: 20px;
 }
 .part01 .p3 {
-	font-size: 35px;
+	font-size: 30px;
 }
 
 /*==== 内容卡片02 ====*/
