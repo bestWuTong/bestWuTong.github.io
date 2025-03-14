@@ -1,7 +1,12 @@
 @charset "UTF-8";
 /* 主样式文件 */
 
-
+<!-- 避免移动设备画面撕裂 -->
+body {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+}
 body {
 	/*==== 背景 ====*/
 	background-color: antiquewhite;
