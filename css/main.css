@@ -201,6 +201,10 @@ a:active {
 	transition: all 0.2s;
 	border: 5px solid #3f3f3f;
 }
+/*==== 返回顶部按钮动画 ====*/
+html {
+  scroll-behavior: smooth;
+}
 
 
 /*==== 底部版权信息 ====*/
