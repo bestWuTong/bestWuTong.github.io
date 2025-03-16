@@ -129,6 +129,9 @@
 }
 
 /*==== 内容卡片02 ====*/
+.part02 .p1 {
+	text-align: center;
+}
 .part02 .p3 {
 	text-align: right;
 }

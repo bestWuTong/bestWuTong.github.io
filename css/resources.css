@@ -15,22 +15,3 @@
     margin: 30px;
 }
 
-/*==== 网盘按钮 ====*/
-.CloudButton {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-right: 10px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    border-radius: 13px;
-    cursor: pointer;
-    outline: none;
-    background-color: #007bff;
-    color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.CloudButton:hover {
-    background-color: #0056b3;
-}
