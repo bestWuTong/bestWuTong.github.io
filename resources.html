@@ -26,7 +26,7 @@
 		<!-- 头部标题logo -->
 		<div class="header02">
 			<img class="logo" src="images/logo.png" alt="無同的小屋" />
-			<h1 class="p1">———— 我的资源站 ————</h1>
+			<h1 class="p1">——— 我的资源站 ———</h1>
 		</div>
 		
 		<!-- 内容 -->
@@ -36,20 +36,20 @@
 				<div class="res">
                     <h2>永恒档案馆</h2>
                     <a href="http://tskx233.ysepan.com" target="_blank"><button class="BlueBtn">打开</button></a>
-                    <p>说明：使用“永硕E盘”云盘服务，可以查看由我分享的文件或资源链接。</p>
+                    <p>介质：“永硕E盘”云盘服务，可以查看由我分享的文件或资源链接。</p>
                 </div>
 				<hr />
 				<div class="res">
 					<h2>临时共享</h2>
 					<a href="https://pan.astpan.com/s/VDQzhN" target="_blank"><button class="BlueBtn">打开</button></a>
-					<p>说明：使用“宏秋云”云盘服务，用来临时共享文件。</p>
+					<p>介质：“宏秋云”云盘服务，用来临时共享文件。</p>
 				</div>
 				<hr />
 				<div class="res">
-                    <h2>❌ <del>御坂网络</del> (无限期停服中)</h2>
+                    <h2><del>御坂网络</del> (❌停止服务)</h2>
                     <a href="https://alist.bestwutong.top:555/" target="_blank"><button class="BlueBtn">打开</button></a>
                     <del>
-					<p>说明：使用物理主机挂载的“Alist”在线网盘，包含我的本地番剧和网盘文件。</p>
+					<p>介质：使用物理主机挂载的“Alist”在线网盘。</p>
 					<p>注意：此站点需使用ipv6网络访问，如果打不开说明你的网络可能不支持使用ipv6（<a href="https://www.test-ipv6.com/" target="_blank">点此测试是否支持ipv6</a>）（手机可直接使用流量访问，一般手机流量都支持ipv6；宽带网络请自行百度）（如果不是ipv6的问题那大概率是网站寄了）。</p>
 					</del>
                 </div>
@@ -65,20 +65,18 @@
 		<div class="blur">
 			<div class="footer">
 				<img class="p0" src="images/logo.png" alt="無同的小屋" />
-				<p class="p1">© 2023-2024 WuTong，All rights reserved.</p>
+				<p class="p1">© 2023-<span id="year"></span> WuTong, All rights reserved.</p>
 				<p class="p2">TECH OTAKUS SAVE THE WORLD !</p>
-				<p class="p3">友情链接：
-					<a class="url" href="https://www.w3school.com.cn/" target="_blank">W3school</a>
-					<a class="url" href="https://www.csdn.net/" target="_blank">CSDN</a>
-					<a class="url" href="https://github.com/" target="_blank">Github</a>
-				</p>
 				<p class="p3">
-					<a class="url" href="https://icp.gov.moe/?keyword=20242314" target="_blank">萌ICP备20242314号</a>
-					<img src="https://badges.toozhao.com/badges/01HRKZR563GX1BH4HP5FRDNHB6/blue.svg" />
+					<a style="color: rgb(251, 70, 161); text-shadow: 2px 2px 5px rgb(237, 180, 180);" class="url" href="https://icp.gov.moe/?keyword=20242314" target="_blank">萌ICP备20242314号</a>
 				</p>
 				<img class="logo" src="images/logo.png" alt="無同的小屋" />
 			</div>
 		</div>
+		<script>
+			// 动态显示当前年份
+			document.getElementById("year").innerHTML = new Date().getFullYear();
+		</script>
 		
 	</body>
 </html>
