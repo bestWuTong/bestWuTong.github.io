@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="WuTong" />
+		<meta name="description" content="無同的个人网站" />
+		<meta name="keywords" content="Personal website,WuTong,無同,个人网站" />
+		
+		<title>{{files.0.name}} | 無同的小屋</title>
+		
+		<link rel="icon" href="../images/icon/favicon.png" />
+		<link rel="shortcut icon" href="../images/icon/favicon.png" />
+		<link rel="stylesheet" href="../css/md-style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main.css" />
+		<link rel="stylesheet" type="text/css" href="../css/article.css" />
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/article.js"></script>
+		
+		<script src='../js/Valine.min.js'></script>
+
+	</head>
+		
+	<body>
+		<div id="top"></div>
+		<!-- 顶部导航栏 -->
+		<div class="topnav">
+			<ul>
+				<li><a href="../index.html">主页</a></li>
+				<li><a href="../post/article.html">文章</a></li>
+				<li><a href="../resources.html">资源</a></li>
+				<li><a href="../other.html">其他</a></li>
+			</ul>
+		</div>
+		<!-- 头部标题logo -->
+		<div class="header02">
+			<img class="logo" src="../images/logo.png" alt="無同的小屋" />
+		</div>
+		
+		<!-- 内容 -->
+		<div class="row">
+			<!-- 左列内容 -->
+			<div class="leftcolumn">
+				<div class="blur">
+					<h2>文章列表</h2>
+					<iframe class="toc" src="article-toc.html" frameborder="0"></iframe>
+				</div>
+			</div>
+			
+			<!-- 右列内容 -->
+			<div class="rightcolumn">
+				<div class="blur">
+				
+				<!-- 文章内容 -->
+				<div class="stackedit">
+				<div class="stackedit__html">
+{{{files.0.content.html}}}
+				</div>
+				</div>
+				
+				<!-- 文章评论 -->
+				<div class="article_comments">
+					<p class="article_comments_title">▍评论区</p>
+					
+					<p style="font-size: 15px; margin-left: 20px;">无需注册，填写昵称即可发表评论<br>如欲收到他人的回复，请填写你的邮箱<br>修改头像请参考：<a href="https://valine.js.org/avatar.html" target="_blank">头像配置</a></p>
+					
+					<div id="vcomments">【此处为文章评论区，未显示说明出现了一些问题！】</div>
+					<script>
+						new Valine({
+							el: '#vcomments',
+							appId: 'l0Ysj8uwxz71JIpBm8Aq61nu-gzGzoHsz',
+							appKey: 'bnNOLjiUSbazpvEx6qCB0eV0',
+							placeholder: '说点什么吧~', //评论框占位提示符
+							requiredFields: ['nick'], //设置必填项，可选值：[]，['nick']，['nick','mail']
+						})
+					</script>
+				</div>
+
+				</div>
+			</div>
+		</div>
+		
+		<!-- 返回顶部 -->
+		<div>
+			<a class="back-to-top" href="#top"><img class="icon" src="../images/icon/top.png" /></a>
+		</div>
+		<!-- 底部版权信息 -->
+<div class="blur">
+			<div class="footer">
+				<img class="p0" src="../images/logo.png" alt="無同的小屋" />
+				<p class="p1">© 2023-<span id="year"></span> WuTong, All rights reserved.</p>
+				<p class="p2">TECH OTAKUS SAVE THE WORLD !</p>
+				<p class="p3">
+					<a style="color: rgb(251, 70, 161); text-shadow: 2px 2px 5px rgb(237, 180, 180);" class="url" href="https://icp.gov.moe/?keyword=20242314" target="_blank">萌ICP备20242314号</a>
+				</p>
+				<img class="logo" src="../images/logo.png" alt="無同的小屋" />
+			</div>
+		</div>
+		<script>
+			// 动态显示当前年份
+			document.getElementById("year").innerHTML = new Date().getFullYear();
+		</script>
+
+	</body>
+</html>
+
+
+<!--
+================================================================
+
+	$$\      $$\        $$$$$$$$\                            
+	$$ | $\  $$ |       \__$$  __|                           
+	$$ |$$$\ $$ |$$\   $$\ $$ | $$$$$$\  $$$$$$$\   $$$$$$\  
+	$$ $$ $$\$$ |$$ |  $$ |$$ |$$  __$$\ $$  __$$\ $$  __$$\ 
+	$$$$  _$$$$ |$$ |  $$ |$$ |$$ /  $$ |$$ |  $$ |$$ /  $$ |
+	$$$  / \$$$ |$$ |  $$ |$$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
+	$$  /   \$$ |\$$$$$$  |$$ |\$$$$$$  |$$ |  $$ |\$$$$$$$ |
+	\__/     \__| \______/ \__| \______/ \__|  \__| \____$$ |
+												   $$\   $$ |
+												   \$$$$$$  |
+													\______/ 
+
+	Powered by WuTong
+================================================================
+-->
