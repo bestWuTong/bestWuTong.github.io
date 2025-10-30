@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="WuTong" />
+		<meta name="description" content="無同的个人网站" />
+		<meta name="keywords" content="Personal website,WuTong,無同,个人网站" />
+		
+		<title>网站技术分享 | 無同的小屋</title>
+		
+		<link rel="icon" href="../images/icon/favicon.png" />
+		<link rel="shortcut icon" href="../images/icon/favicon.png" />
+		<link rel="stylesheet" href="../css/md-style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main.css" />
+		<link rel="stylesheet" type="text/css" href="../css/article.css" />
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/article.js"></script>
+		
+		<script src='../js/Valine.min.js'></script>
+
+	</head>
+		
+	<body>
+		<div id="top"></div>
+		<!-- 顶部导航栏 -->
+		<div class="topnav">
+			<ul>
+				<li><a href="../index.html">主页</a></li>
+				<li><a href="../post/article.html">文章</a></li>
+				<li><a href="../resources.html">资源</a></li>
+				<li><a href="../other.html">其他</a></li>
+			</ul>
+		</div>
+		<!-- 头部标题logo -->
+		<div class="header02">
+			<img class="logo" src="../images/logo.png" alt="無同的小屋" />
+		</div>
+		
+		<!-- 内容 -->
+		<div class="row">
+			<!-- 左列内容 -->
+			<div class="leftcolumn">
+				<div class="blur">
+					<h2>文章列表</h2>
+					<iframe class="toc" src="article-toc.html" frameborder="0"></iframe>
+				</div>
+			</div>
+			
+			<!-- 右列内容 -->
+			<div class="rightcolumn">
+				<div class="blur">
+				
+				<!-- 文章内容 -->
+				<div class="stackedit">
+				<div class="stackedit__html">
+<h1 id="网站技术分享"><span class="prefix"></span><span class="content">网站技术分享</span><span class="suffix"></span></h1>
+<blockquote>
+<p>发布时间：2025-10-30 17:45<br>
+修改时间：暂无修改<br>
+【作者：無同 | 未经许可，请勿转载！】</p>
+</blockquote>
+<p><strong>目录</strong></p>
+<p></p><div class="preview-toc"><ul><li class="preview-toc-item preview-toc-l1"><a href="#网站技术分享">网站技术分享</a><ul><li class="preview-toc-item preview-toc-l2"><a href="#声明">声明</a></li>
+<li class="preview-toc-item preview-toc-l2"><a href="#网站域名">网站域名</a></li>
+<li class="preview-toc-item preview-toc-l2"><a href="#网站部署">网站部署</a></li>
+<li class="preview-toc-item preview-toc-l2"><a href="#网站更新">网站更新</a></li>
+<li class="preview-toc-item preview-toc-l2"><a href="#文章的撰写与发布">文章的撰写与发布</a></li>
+<li class="preview-toc-item preview-toc-l2"><a href="#评论功能">评论功能</a></li>
+<li class="preview-toc-item preview-toc-l2"><a href="#图片加载优化">图片加载优化</a></li></ul></li></ul></div><p></p>
+<h2 id="声明"><span class="prefix"></span><span class="content">声明</span><span class="suffix"></span></h2>
+<p>这是一篇由于 <strong>技术不足 + 经费不足</strong>  而产生的“畸形”的建站经验，仅供参考。</p>
+<h2 id="网站域名"><span class="prefix"></span><span class="content">网站域名</span><span class="suffix"></span></h2>
+<p>本站域名从<a href="https://www.namesilo.com/">NameSilo</a>购入，.top域名相对实惠，首年十几块，后续每年三十多续费。为提高国内访问速度，额外采用国内的<a href="https://www.dnspod.cn/">DNSPod</a>的免费DNS解析服务。</p>
+<h2 id="网站部署"><span class="prefix"></span><span class="content">网站部署</span><span class="suffix"></span></h2>
+<p>网页全部代码及绝大部分资源文件托管在<a href="https://docs.github.com/zh/pages">Github Pages</a>上，免费且相对稳定。</p>
+<h2 id="网站更新"><span class="prefix"></span><span class="content">网站更新</span><span class="suffix"></span></h2>
+<p>本站主体为静态网页，依靠手动更新网页文件来更新网站。</p>
+<h2 id="文章的撰写与发布"><span class="prefix"></span><span class="content">文章的撰写与发布</span><span class="suffix"></span></h2>
+<p>使用<a href="https://stackedit.cn/">StackEdit</a>撰写Markdown格式的文章，然后使用“导出为HTML”功能从事先写好的模板生成符合网站主题的HTML文件，最后上传到Github上的对应仓库及来实现文章发布。</p>
+<h2 id="评论功能"><span class="prefix"></span><span class="content">评论功能</span><span class="suffix"></span></h2>
+<p>文章页底部的评论功能由<a href="https://valine.js.org/">Valine</a>评论系统实现，由<a href="https://www.leancloud.cn/">LeanCloud</a>提供免费的“云引擎”和数据库服务。</p>
+<h2 id="图片加载优化"><span class="prefix"></span><span class="content">图片加载优化</span><span class="suffix"></span></h2>
+<p>由于本站首页图片过多，所以采用了以下几个方法来提高网站图片加载速度：</p>
+<ul>
+<li>网站背景图片及首页“动态”栏图片均使用<a href="https://saerasoft.com/caesium/">Caesium</a>图片压缩软件压缩成.webp格式，且文件大小由几MB甚至十几MB压缩到二百KB左右，大大提高加载速度。</li>
+<li>网站背景图片及首页“动态”栏图片上传到<a href="https://imgchr.com/">路过图床</a>，进一步提高加载速度。</li>
+<li>为首页“动态”栏图片 &lt; img &gt; 标签加上 loading=“lazy” 属性，实现图片懒加载，这意味着只有浏览器可视区域内及附近的图像才会加载，网页滚动到下方时才会继续加载后面的图片，大大减轻了带宽压力。</li>
+</ul>
+<p>一通操作下来，实测网站首页加载速度可由原来的十几秒优化到3秒以内(一般情况下)。</p>
+
+				</div>
+				</div>
+				
+				<!-- 文章评论 -->
+				<div class="article_comments">
+					<p class="article_comments_title">▍评论区</p>
+					
+					<p style="font-size: 15px; margin-left: 20px;">无需注册，填写昵称即可发表评论<br>如欲收到他人的回复，请填写你的邮箱<br>修改头像请参考：<a href="https://valine.js.org/avatar.html" target="_blank">头像配置</a></p>
+					
+					<div id="vcomments">【此处为文章评论区，未显示说明出现了一些问题！】</div>
+					<script>
+						new Valine({
+							el: '#vcomments',
+							appId: 'l0Ysj8uwxz71JIpBm8Aq61nu-gzGzoHsz',
+							appKey: 'bnNOLjiUSbazpvEx6qCB0eV0',
+							placeholder: '说点什么吧~', //评论框占位提示符
+							requiredFields: ['nick'], //设置必填项，可选值：[]，['nick']，['nick','mail']
+						})
+					</script>
+				</div>
+
+				</div>
+			</div>
+		</div>
+		
+		<!-- 返回顶部 -->
+		<div>
+			<a class="back-to-top" href="#top"><img class="icon" src="../images/icon/top.png" /></a>
+		</div>
+		<!-- 底部版权信息 -->
+<div class="blur">
+			<div class="footer">
+				<img class="p0" src="../images/logo.png" alt="無同的小屋" />
+				<p class="p1">© 2023-<span id="year"></span> WuTong, All rights reserved.</p>
+				<p class="p2">TECH OTAKUS SAVE THE WORLD !</p>
+				<p class="p3">
+					<a style="color: rgb(251, 70, 161); text-shadow: 2px 2px 5px rgb(237, 180, 180);" class="url" href="https://icp.gov.moe/?keyword=20242314" target="_blank">萌ICP备20242314号</a>
+				</p>
+				<img class="logo" src="../images/logo.png" alt="無同的小屋" />
+			</div>
+		</div>
+		<script>
+			// 动态显示当前年份
+			document.getElementById("year").innerHTML = new Date().getFullYear();
+		</script>
+
+	</body>
+</html>
+
+
+<!--
+================================================================
+
+	$$\      $$\        $$$$$$$$\                            
+	$$ | $\  $$ |       \__$$  __|                           
+	$$ |$$$\ $$ |$$\   $$\ $$ | $$$$$$\  $$$$$$$\   $$$$$$\  
+	$$ $$ $$\$$ |$$ |  $$ |$$ |$$  __$$\ $$  __$$\ $$  __$$\ 
+	$$$$  _$$$$ |$$ |  $$ |$$ |$$ /  $$ |$$ |  $$ |$$ /  $$ |
+	$$$  / \$$$ |$$ |  $$ |$$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
+	$$  /   \$$ |\$$$$$$  |$$ |\$$$$$$  |$$ |  $$ |\$$$$$$$ |
+	\__/     \__| \______/ \__| \______/ \__|  \__| \____$$ |
+												   $$\   $$ |
+												   \$$$$$$  |
+													\______/ 
+
+	Powered by WuTong
+================================================================
+-->
+
