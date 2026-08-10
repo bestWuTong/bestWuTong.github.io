@@ -107,6 +107,24 @@
 	font-size: 20px;
 }
 
+/*==== 作品卡片 ====*/
+.blur:has(.myworks) {
+	padding: 5px 15px;
+}
+
+.myworks h3 {
+	text-align: center;
+}
+
+.myworks hr {
+	border: #ffffff76 1px solid;
+}
+
+.myworks iframe {
+	width: 100%;
+	min-height: 200px;
+}
+
 /*==== 内容卡片01 ====*/
 .part01 {
 	text-align: center;
